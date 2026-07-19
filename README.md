@@ -1,16 +1,32 @@
-# React + Vite
+<img width="745" height="584" alt="image" src="https://github.com/user-attachments/assets/c6c02c0c-3fce-4f2f-a9bf-a8255d476950" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Meme Generator 
+This is a simple meme generator web application built with React. Users can eneter custom top and bottom text and generate random meme images fetched from the Imgflip API. 
 
-Currently, two official plugins are available:
+# Main Features 
+* Generates random meme images
+* Add custom text to the top and bottom of memes
+* Update meme text dynamically
+* Fetch meme templates from Imgflip API
+* Responsive user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Technology used 
+* React.js
+* JavaScript
+* HTML 5
+* CSS
+* Imgflip API
 
-## React Compiler
+# Installation 
+Clone the repository: 
+git clone https://github.com/smn42284-boop/meme-generator.git
+Navigate into the project folder:
+cd meme-generator
+Install dependencies:
+npm install
+Start the development server:
+npm start
+The application will run locally at:
+http://localhost:3000
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Created By Su Myat Noe 
